@@ -1,5 +1,5 @@
 import months from './months.js'
-import cars from './cars.js'
+//import cars from './cars.js'
 
 // Filtra meses
 const filteredMonths = months.filter( (months)=> {

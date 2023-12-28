@@ -1,4 +1,4 @@
-let carBrands = [
+let cars = [
     {
         brand: 'Mercedes-Benz',
         color: 'branco',

@@ -1,7 +1,7 @@
 import cars from './cars.js'
 
 // Filtrar carros por marca
-const filteredCars = cars.filter(car => car.brand === 'Ford')
+const filteredCars = cars.filter(car => car.color === 'preto')
 
 console.log(filteredCars)
 
@@ -12,4 +12,4 @@ filteredCars.forEach(car => {
    toPrint += car.brand + ' ' + car.color + ' ' + car.year + ', '
 });
 
-document.getElementById('main').innerHTML = toPrint
+document.getElementById('carListContainer').innerHTML = toPrint
